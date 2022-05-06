@@ -1,0 +1,353 @@
+@import "keyframes.css";
+
+.wrapper {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  border: 1px solid orange;
+  overflow: hidden;
+}
+
+.brick {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  top: -40px;
+}
+
+.brick::before,
+.brick::after {
+  content: "";
+  display: block;
+  position: relative;
+  background-color: inherit;
+  height: 10px;
+  width: 20px;
+}
+
+.brick::before {
+  top: -10px;
+  left: 10px;
+}
+
+.brick::after {
+  top: -20px;
+  left: 50px;
+}
+
+.brick__red {
+  background-color: red;
+}
+
+.brick__blue {
+  background-color: blue;
+}
+
+.brick__orange {
+  background-color: orange;
+}
+
+.brick__green {
+  background-color: green;
+}
+
+.brick__purple {
+  background-color: purple;
+}
+
+/* row 1 */
+
+.brick__1 {
+  left: 0;
+  animation: brick-row-1 1s linear both;
+}
+
+.brick__2 {
+  left: 80px;
+  animation: brick-row-1 1s linear both 0.5s;
+}
+
+.brick__3 {
+  left: 160px;
+  animation: brick-row-1 1s linear both 1s;
+}
+
+.brick__4 {
+  left: 240px;
+  animation: brick-row-1 1s linear both 1.5s;
+}
+
+.brick__5 {
+  left: 320px;
+  animation: brick-row-1 1s linear both 2s;
+}
+
+/* row 2 */
+
+.brick__6 {
+  left: -40px;
+  animation: brick-row-2 1s linear both 2.5s;
+}
+
+.brick__7 {
+  left: 40px;
+  animation: brick-row-2 1s linear both 3s;
+}
+
+.brick__8 {
+  left: 120px;
+  animation: brick-row-2 1s linear both 3.5s;
+}
+
+.brick__9 {
+  left: 200px;
+  animation: brick-row-2 1s linear both 4s;
+}
+
+.brick__10 {
+  left: 280px;
+  animation: brick-row-2 1s linear both 4.5s;
+}
+
+.brick__11 {
+  left: 360px;
+  animation: brick-row-2 1s linear both 5s;
+}
+
+/* row 3 */
+
+.brick__12 {
+  left: 0;
+  animation: brick-row-3 1s linear both 5.5s;
+}
+
+.brick__13 {
+  left: 80px;
+  animation: brick-row-3 1s linear both 6s;
+}
+
+.brick__14 {
+  left: 160px;
+  animation: brick-row-3 1s linear both 6.5s;
+}
+
+.brick__15 {
+  left: 240px;
+  animation: brick-row-3 1s linear both 7s;
+}
+
+.brick__16 {
+  left: 320px;
+  animation: brick-row-3 1s linear both 7.5s;
+}
+
+/* row 4 */
+
+.brick__17 {
+  left: -40px;
+  animation: brick-row-4 1s linear both 8s;
+}
+
+.brick__18 {
+  left: 40px;
+  animation: brick-row-4 1s linear both 8.5s;
+}
+
+.brick__19 {
+  left: 120px;
+  animation: brick-row-4 1s linear both 9s;
+}
+
+.brick__20 {
+  left: 200px;
+  animation: brick-row-4 1s linear both 9.5s;
+}
+
+.brick__21 {
+  left: 280px;
+  animation: brick-row-4 1s linear both 10s;
+}
+
+.brick__22 {
+  left: 360px;
+  animation: brick-row-4 1s linear both 10.5s;
+}
+
+/* row 5 */
+
+.brick__23 {
+  left: 0;
+  animation: brick-row-5 1s linear both 11s;
+}
+
+.brick__24 {
+  left: 80px;
+  animation: brick-row-5 1s linear both 11.5s;
+}
+
+.brick__25 {
+  left: 160px;
+  animation: brick-row-5 1s linear both 12s;
+}
+
+.brick__26 {
+  left: 240px;
+  animation: brick-row-5 1s linear both 12.5s;
+}
+
+.brick__27 {
+  left: 320px;
+  animation: brick-row-5 1s linear both 13s;
+}
+
+/* row 6 */
+
+.brick__28 {
+  left: -40px;
+  animation: brick-row-6 1s linear both 13.5s;
+}
+
+.brick__29 {
+  left: 40px;
+  animation: brick-row-6 1s linear both 14s;
+}
+
+.brick__30 {
+  left: 120px;
+  animation: brick-row-6 1s linear both 14.5s;
+}
+
+.brick__31 {
+  left: 200px;
+  animation: brick-row-6 1s linear both 15s;
+}
+
+.brick__32 {
+  left: 280px;
+  animation: brick-row-6 1s linear both 15.5s;
+}
+
+.brick__33 {
+  left: 360px;
+  animation: brick-row-6 1s linear both 16s;
+}
+
+/* row 7 */
+
+.brick__34 {
+  left: 0;
+  animation: brick-row-7 1s linear both 16.5s;
+}
+
+.brick__35 {
+  left: 80px;
+  animation: brick-row-7 1s linear both 17s;
+}
+
+.brick__36 {
+  left: 160px;
+  animation: brick-row-7 1s linear both 17.5s;
+}
+
+.brick__37 {
+  left: 240px;
+  animation: brick-row-7 1s linear both 18s;
+}
+
+.brick__38 {
+  left: 320px;
+  animation: brick-row-7 1s linear both 18.5s;
+}
+
+/* row 8 */
+
+.brick__39 {
+  left: -40px;
+  animation: brick-row-8 1s linear both 19s;
+}
+
+.brick__40 {
+  left: 40px;
+  animation: brick-row-8 1s linear both 19.5s;
+}
+
+.brick__41 {
+  left: 120px;
+  animation: brick-row-8 1s linear both 20s;
+}
+
+.brick__42 {
+  left: 200px;
+  animation: brick-row-8 1s linear both 20.5s;
+}
+
+.brick__43 {
+  left: 280px;
+  animation: brick-row-8 1s linear both 21s;
+}
+
+.brick__44 {
+  left: 360px;
+  animation: brick-row-8 1s linear both 21.5s;
+}
+
+/* row 9 */
+
+.brick__45 {
+  left: 0;
+  animation: brick-row-9 1s linear both 22s;
+}
+
+.brick__46 {
+  left: 80px;
+  animation: brick-row-9 1s linear both 22.5s;
+}
+
+.brick__47 {
+  left: 160px;
+  animation: brick-row-9 1s linear both 23s;
+}
+
+.brick__48 {
+  left: 240px;
+  animation: brick-row-9 1s linear both 23.5s;
+}
+
+.brick__49 {
+  left: 320px;
+  animation: brick-row-9 1s linear both 24s;
+}
+
+/* row 10 */
+
+.brick__50 {
+  left: -40px;
+  animation: brick-row-10 1s linear both 24.5s;
+}
+
+.brick__51 {
+  left: 40px;
+  animation: brick-row-10 1s linear both 25s;
+}
+
+.brick__52 {
+  left: 120px;
+  animation: brick-row-10 1s linear both 25.5s;
+}
+
+.brick__53 {
+  left: 200px;
+  animation: brick-row-10 1s linear both 26s;
+}
+
+.brick__54 {
+  left: 280px;
+  animation: brick-row-10 1s linear both 26.5s;
+}
+
+.brick__55 {
+  left: 360px;
+  animation: brick-row-10 1s linear both 27s;
+}

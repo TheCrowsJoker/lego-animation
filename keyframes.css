@@ -1,0 +1,89 @@
+@keyframes brick-row-1 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 40px);
+  }
+}
+
+@keyframes brick-row-2 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 80px);
+  }
+}
+
+@keyframes brick-row-3 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 120px);
+  }
+}
+
+@keyframes brick-row-4 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 160px);
+  }
+}
+
+@keyframes brick-row-5 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 200px);
+  }
+}
+
+@keyframes brick-row-6 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 240px);
+  }
+}
+
+@keyframes brick-row-7 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 280px);
+  }
+}
+
+@keyframes brick-row-8 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 320px);
+  }
+}
+
+@keyframes brick-row-9 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 360px);
+  }
+}
+
+@keyframes brick-row-10 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: calc(100% - 400px);
+  }
+}
